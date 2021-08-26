@@ -49,6 +49,7 @@ footer {
 }
 @media (max-width: 850px) {
   .quotes {
-    min-width: 90%;
+    min-width: 85%;
+    min-height: 30%;
   }
 }
