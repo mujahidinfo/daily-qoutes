@@ -10,7 +10,7 @@
 h1 {
   font-size: 2.5rem;
 }
-.qoutes {
+.quotes {
   max-height: auto;
   min-height: 50%;
   width: 50%;
@@ -21,7 +21,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 }
-#qoute {
+#quote {
   margin: 5px;
   padding: 5px;
   font-size: 2em;
@@ -37,7 +37,7 @@ button {
   border-color: coral;
   font-size: 18px;
 }
-button:hover {
+button:active {
   background-color: #3e62ff;
   color: rgb(255, 255, 255);
   border: rgb(0, 0, 0);
@@ -46,4 +46,9 @@ button:hover {
 footer {
   text-align: center;
   font-family: "Fira Sans", sans-serif;
+}
+@media (max-width: 850px) {
+  .quotes {
+    min-width: 90%;
+  }
 }

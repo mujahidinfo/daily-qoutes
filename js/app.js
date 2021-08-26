@@ -4,8 +4,7 @@ const loadQoutes = () => {
     .then((data) => displayQoute(data));
 };
 
-const displayQoute = (qoute) => {
-  const showQoute = document.getElementById("qoute");
-  showQoute.innerText = `"${qoute.quote}"`;
-  console.log(qoute);
+const displayQoute = (quote) => {
+  const showQuote = document.getElementById("quote");
+  showQuote.innerText = `"${quote.quote}"`;
 };
